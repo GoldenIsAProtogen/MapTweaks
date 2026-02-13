@@ -4,6 +4,6 @@ namespace MapTweaks
     {
         public const string Guid    = "golden.maptweaks";
         public const string Name    = "MapTweaks";
-        public const string Version = "1.0.0";
+        public const string Version = "1.1.0"; //MAJOR.MINOR.PATCH
     }
 }
