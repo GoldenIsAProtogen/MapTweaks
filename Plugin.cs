@@ -18,7 +18,7 @@ namespace MapTweaks
         {
             InitConfig();
             SceneManager.sceneLoaded                              += OnSceneLoaded;
-            CosmeticsV2Spawner_Dirty.OnPostInstantiateAllPrefabs2 += OnCosmeticsLoaded;
+            CosmeticsV2Spawner_Dirty.OnPostInstantiateAllPrefabs += OnCosmeticsLoaded;
         }
 
         // forest, but eh
